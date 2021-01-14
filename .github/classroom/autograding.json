@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Hello World",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "Hello World",
+      "output": "11",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "All",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "The quick brown fox jumps over the lazy dog",
+      "output": "43",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "one",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "!",
+      "output": "1",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "none",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "\r\n",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
