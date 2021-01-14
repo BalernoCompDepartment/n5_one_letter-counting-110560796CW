@@ -1,3 +1,4 @@
+[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=3900565&assignment_repo_type=AssignmentRepo)
 # A simple first program to get used to Repl.it and submission
 
 A student wants to know how many letters are in a word (or series of words) and has asked you to write a program to work it out for them
